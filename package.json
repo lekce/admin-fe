@@ -1,17 +1,17 @@
 {
-  "name": "mmall_admin_fe",
+  "name": "emall_admin_fe",
   "version": "1.0.0",
-  "description": "admin.happymmall.com",
+  "description": "admin.gg.com",
   "main": "index.js",
   "scripts": {
-    "dev"     : "WEBPACK_ENV=dev webpack-dev-server --port 8086 --inline",
-    "dev_win" : "set WEBPACK_ENV=dev && webpack-dev-server --port 8086 --inline",
+    "dev"     : "WEBPACK_ENV=dev webpack-dev-server --port 8084 --inline",
+    "dev_win" : "set WEBPACK_ENV=dev && webpack-dev-server --port 8084 --inline",
     "dist"    : "WEBPACK_ENV=online webpack -p",
     "dist_win": "set WEBPACK_ENV=online && webpack -p"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.oschina.net/happymmall/mmall_admin_fe.git"
+    "url": "https://github.com/lekce/admin-fe.git"
   },
   "author": "Rosen",
   "license": "ISC",
