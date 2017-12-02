@@ -1,8 +1,8 @@
 /*
 * @Author: Rosen
 * @Date:   2016-11-20 13:19:28
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-06-15 09:38:12
+* @Last Modified by:   daihp
+* @Last Modified time: 2017-12-02 19:53:40
 * 知识点：css单独打包、全局jquery引用、各种loader
 */
 
@@ -100,7 +100,7 @@ var config = {
 
 // 开发环境下，使用devServer热加载
 if(WEBPACK_ENV === 'dev'){
-    config.entry.app.push('webpack-dev-server/client?http://localhost:8086');
+    config.entry.app.push('webpack-dev-server/client?http://localhost:8084');
 }
 
 module.exports = config;
